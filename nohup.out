@@ -11772,3 +11772,132 @@ Collection created!
 1525292
 2018-11-16T07:33:30.000Z
 1 document inserted
+1525293
+2018-11-16T07:33:33.000Z
+1 document inserted
+1525293
+2018-11-16T07:33:36.000Z
+1 document inserted
+1525295
+2018-11-16T07:33:39.000Z
+1 document inserted
+1525296
+2018-11-16T07:33:42.000Z
+1 document inserted
+1525297
+2018-11-16T07:33:45.000Z
+1 document inserted
+1525298
+2018-11-16T07:33:48.000Z
+./bash.sh: line 8: 22846 Terminated              sudo nohup node db.js
+./bash.sh: line 8: 22910 Terminated              sudo nohup node server.js
+(node:22991) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+Example app listening on port 80!
+{ MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/topologies/server.js:564:11)
+    at Pool.emit (events.js:182:13)
+    at Connection.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/connection/pool.js:317:12)
+    at Object.onceWrapper (events.js:273:13)
+    at Connection.emit (events.js:182:13)
+    at Socket.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/connection/connection.js:246:50)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+  name: 'MongoNetworkError',
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {} }
+Node NOT Exiting...
+1525299
+2018-11-16T07:33:51.000Z
+(node:22992) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+/home/jare/blocktivity/node_modules/mongodb/lib/operations/mongo_client_ops.js:466
+      throw err;
+      ^
+
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/topologies/server.js:564:11)
+    at Pool.emit (events.js:182:13)
+    at Connection.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/connection/pool.js:317:12)
+    at Object.onceWrapper (events.js:273:13)
+    at Connection.emit (events.js:182:13)
+    at Socket.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/connection/connection.js:246:50)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+./bash.sh: line 8: 22911 Terminated              sudo nohup node db.js
+(node:23064) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+Example app listening on port 80!
+{ MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/topologies/server.js:564:11)
+    at Pool.emit (events.js:182:13)
+    at Connection.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/connection/pool.js:317:12)
+    at Object.onceWrapper (events.js:273:13)
+    at Connection.emit (events.js:182:13)
+    at Socket.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/connection/connection.js:246:50)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+  name: 'MongoNetworkError',
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {} }
+Node NOT Exiting...
+1525379
+2018-11-16T07:37:51.000Z
+(node:23065) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+/home/jare/blocktivity/node_modules/mongodb/lib/operations/mongo_client_ops.js:466
+      throw err;
+      ^
+
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/topologies/server.js:564:11)
+    at Pool.emit (events.js:182:13)
+    at Connection.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/connection/pool.js:317:12)
+    at Object.onceWrapper (events.js:273:13)
+    at Connection.emit (events.js:182:13)
+    at Socket.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/connection/connection.js:246:50)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+./bash.sh: line 8: 22988 Terminated              sudo nohup node server.js
+(node:23112) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+Example app listening on port 80!
+{ MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/topologies/server.js:564:11)
+    at Pool.emit (events.js:182:13)
+    at Connection.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/connection/pool.js:317:12)
+    at Object.onceWrapper (events.js:273:13)
+    at Connection.emit (events.js:182:13)
+    at Socket.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/connection/connection.js:246:50)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+  name: 'MongoNetworkError',
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {} }
+Node NOT Exiting...
+1525458
+2018-11-16T07:41:51.000Z
+(node:23113) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+/home/jare/blocktivity/node_modules/mongodb/lib/operations/mongo_client_ops.js:466
+      throw err;
+      ^
+
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/topologies/server.js:564:11)
+    at Pool.emit (events.js:182:13)
+    at Connection.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/connection/pool.js:317:12)
+    at Object.onceWrapper (events.js:273:13)
+    at Connection.emit (events.js:182:13)
+    at Socket.<anonymous> (/home/jare/blocktivity/node_modules/mongodb-core/lib/connection/connection.js:246:50)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)

@@ -35,7 +35,7 @@ MongoClient.connect(url, function(err, db) {
 try{
   var dbo = db.db("1231382");
 let query = {
-    "datetime": {"$gte": new Date(new moment().add(4, 'hour').subtract(1, 'day'))}
+    "datetime": {"$gte": new Date(new moment().subtract(1, 'day'))}
 };
   dbo.collection("blocks").find(query).toArray(function(err, result) {
     if (err) throw err;
@@ -75,7 +75,7 @@ MongoClient.connect(url, function(err, db) {
 try{
   var dbo = db.db("1231382");
 let query = {
-    "datetime": {"$gte": new Date(new moment().add(4, 'hour').subtract(1, 'hour'))}
+    "datetime": {"$gte": new Date(new moment().subtract(1, 'hour'))}
 };
   dbo.collection("blocks").find(query).toArray(function(err, result) {
 	  console.log(err, result);
@@ -113,7 +113,7 @@ app.get('/1min', function (req, res){
 try{
   var dbo = db.db("1231382");
 let query = {
-    "datetime": {"$gte": new Date(new moment().add(4, 'hour').subtract(1, 'minute'))}
+    "datetime": {"$gte": new Date(new moment().subtract(1, 'minute'))}
 };
   dbo.collection("blocks").find(query).toArray(function(err, result) {
 	  console.log(err, result);
@@ -149,9 +149,9 @@ app.get('/5min', function (req, res){
 	MongoClient.connect(url, function(err, db) {
   if (err) throw err;try {
   var dbo = db.db("1231382");
-	console.log(new Date(new moment().add(4, 'hour').subtract(5, 'minute')));
+	console.log(new Date(new moment().subtract(5, 'minute')));
 let query = {
-    "datetime": {"$gte": new Date(new moment().add(4, 'hour').subtract(5, 'minute'))}
+    "datetime": {"$gte": new Date(new moment().subtract(5, 'minute'))}
 };
   dbo.collection("blocks").find(query).toArray(function(err, result) {
 	  console.log(err, result);
