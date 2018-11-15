@@ -9,7 +9,7 @@ process.on('uncaughtException', function (err) {
 });
 	
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb+srv://jare:w0rdp4ss@cluster0-kuely.mongodb.net/test?retryWrites=true";
+var url = "mongodb://localhost:27017";
 MongoClient.connect(url, function(err, db) {
   if (err) throw err;
   var dbo = db.db("1231382");

@@ -5,7 +5,7 @@ var mongo = require('mongodb');
 var moment = require('moment');
 var currentBlock = 0;
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb+srv://jare:w0rdp4ss@cluster0-kuely.mongodb.net/test?retryWrites=true";
+var url = "mongodb://localhost:27017";
 
 setInterval(function(){
 	try {
